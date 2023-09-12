@@ -1,0 +1,150 @@
+body {
+    background-color: #5a5656;
+}
+
+
+
+header nav {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s ease-in-out;
+    position: absolute;
+    background-color: antiquewhite;
+    left: 0;
+    top: 4.5rem;
+    width: 100vw;
+    margin-top: 2rem;
+}
+
+nav ul li{
+    padding-left: 1rem;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+header {
+    max-width: 1200px;
+    margin: 1rem auto;
+    background-color: antiquewhite;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 1rem auto;
+    background-color: antiquewhite;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+article {
+    margin-bottom: 2rem;
+}
+
+
+article h3 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.link {
+    cursor: pointer;
+    color: red;
+    text-decoration: none;
+}
+
+.show-nav {
+    max-height: 18rem;
+    overflow: visible;
+    margin-top: 0;
+
+}
+
+.toggle-btn {
+    background-color: antiquewhite;
+    border: none;
+    cursor: pointer;
+}
+
+.toggle-btn svg {
+    width: 2.125rem;
+}
+
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 1rem;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+
+@media screen and (min-width:800px) {
+    .horizontal {
+        display: flex;
+        gap: 1rem;
+        justify-content: space-between;
+    }
+    
+    header div {
+        position: relative;
+    }
+
+   
+
+    span {
+        color: rgb(238, 3, 3);
+    }
+
+    header h2 {
+        background-color: rgba(255, 255, 255, 0.18);
+        color: rgba(5, 5, 5, 0.716);
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: 3rem;
+        position: relative;
+        top: 72px;
+        width: fit-content;
+    }
+
+    .horizontal div {
+        gap: 2rem;
+        width: 50%;
+    }
+    
+
+    header h1 {
+        text-align: center;
+        font-size: 5rem;
+    }
+
+    .toggle-btn {
+        display: none;
+    }
+
+    header nav {
+        max-height: 100vw;
+        position: static;
+        width: 100%;
+        overflow: visible; 
+        background-color: rgba(255, 0, 0, 0.18);
+        margin-top: 0;
+        border-radius: 5px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .menu li {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+}
