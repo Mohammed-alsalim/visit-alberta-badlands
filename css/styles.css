@@ -78,9 +78,25 @@ article h3 {
 footer {
     max-width: 1200px;
     margin: 0 auto;
-    padding-left: 1rem;
     background-color: antiquewhite;
     border-radius: 5px;
+}
+
+footer a {
+    padding: .5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 1rem 1rem;
+    box-shadow: 0 0 2px 1px gray;
+    color: black;
+    display: block;
+    text-align: center;
+}
+
+footer a:hover,
+footer a:active {
+    background-color: black;
+    color: antiquewhite;
 }
 
 
@@ -146,5 +162,14 @@ footer {
     .menu li {
         font-size: 2rem;
         padding: 1rem;
+    }
+
+    footer div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer p {
+        text-align: center;
     }
 }
