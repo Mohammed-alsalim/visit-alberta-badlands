@@ -89,7 +89,6 @@ footer a {
     margin: 1rem 1rem;
     box-shadow: 0 0 2px 1px gray;
     color: black;
-    display: block;
     text-align: center;
 }
 
@@ -106,7 +105,8 @@ footer a:active {
 
 .banner {
     width: fit-content;
-    margin: 0 auto;
+    margin: 1rem auto;
+    display:block;
     padding: 0;
 }
 
