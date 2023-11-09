@@ -1,8 +1,3 @@
-
-// This is not a Javascript course but I could not build a modern website without JS - please take 
-// the course CPSC 1520 Client-Side Scripting with JavaScript for a solid understanding of what
-// is going on bellow. :)
-
 let popUp = document.getElementById("cookiePopup");
 //When user clicks the accept button
 document.getElementById("acceptCookie").addEventListener("click", () => {

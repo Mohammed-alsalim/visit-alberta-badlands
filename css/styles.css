@@ -16,7 +16,7 @@ header nav {
     margin-top: 2rem;
 }
 
-nav ul li{
+nav ul li {
     padding-left: 1rem;
 }
 
@@ -111,7 +111,7 @@ footer p {
 .banner {
     width: fit-content;
     margin: 1rem auto;
-    display:block;
+    display: block;
     padding: 0;
 }
 
@@ -120,7 +120,7 @@ h1 {
 }
 
 .social a {
-    margin:1rem .5rem;
+    margin: 1rem .5rem;
     padding: unset;
     box-shadow: none
 }
@@ -131,6 +131,65 @@ h1 {
 
 }
 
+h2 {
+    font-size: 2.5rem;
+}
+
+.mb{
+    margin-bottom: 2rem;
+}
+
+/* -- Code for the Cookie Compliance popover window -- */
+#cookiePopup {
+    background-color: #ffffff;
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    font-size: 14px;
+    width: 90%;
+    box-shadow: 0 0 2em rgba(5, 0, 31, 0.15);
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    line-height: 1.8em;
+    margin: 0 auto;
+    padding: 2em 1.4em;
+    border-radius: 6px;
+    transition: all 0.5s ease-in-out;
+}
+
+#cookiePopup p {
+    text-align: center;
+    margin: 1.4em 0;
+}
+
+#cookiePopup button {
+    background-color: #3f704d;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 1em 1.4em;
+    display: block;
+    position: relative;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#cookiePopup a {
+    color: #3f704d;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
+.centered {
+text-align: center;
+
+}
 
 
 
@@ -142,12 +201,12 @@ h1 {
         gap: 1rem;
         justify-content: space-between;
     }
-    
+
     header div {
         position: relative;
     }
 
-   
+
 
     span {
         color: rgb(238, 3, 3);
@@ -168,7 +227,7 @@ h1 {
         gap: 2rem;
         width: 50%;
     }
-    
+
 
     header h1 {
         text-align: center;
@@ -183,7 +242,7 @@ h1 {
         max-height: 100vw;
         position: static;
         width: 100%;
-        overflow: visible; 
+        overflow: visible;
         margin-top: 0;
         border-radius: 5px;
     }
